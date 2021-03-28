@@ -1,16 +1,18 @@
 import React from 'react'
-import Banner from './components/Banner'
-import PillowItem, { PillowItemProps } from './components/PillowItem'
+import Header from 'components/Header'
+import PillowItem, { PillowItemProps } from 'components/PillowItem'
+import sites from 'sites.json'
 import './App.css'
 
 function App() {
-  const urlList: PillowItemProps[] = []
+  const urlList: PillowItemProps[] = sites
   return (
     <div className='App'>
-      <Banner />
+      <Header />
       <div className='container'>
         {urlList.map((item) => (
           <PillowItem
+            key={item.title}
             icon={item.icon}
             url={item.url}
             title={item.title}

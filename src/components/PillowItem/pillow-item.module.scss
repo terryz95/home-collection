@@ -1,3 +1,45 @@
 .pillow-item {
-  
+  width: calc((100% - 16px * 3) / 3);
+  margin: 8px;
+  @media screen and (max-width: 1200px) {
+    width: calc((100% - 16px * 2) / 2);
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+    max-width: 560px;
+  }
+  &__inner {
+    height: 240px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    color: #4b4848;
+    transition: 0.2s linear;
+    &:hover {
+      box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.15);
+      transform: translate3d(0px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;
+    }
+  }
+  &__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+  }
+  &__title {
+    margin-top: 16px;
+  }
+  &__desc {
+    margin-top: 4px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+
+    /* autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+  }
 }

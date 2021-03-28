@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Design Milk",
+    "description": "Modern design ideas from interior design and architecture to modern furniture and home decor. Discover creative art, stylish products + new technology.",
+    "icon": "/home-collection/brandlogo/design_milk.png",
+    "url": "https://design-milk.com/"
+  },
+  {
+    "title": "Houzz",
+    "description": "Houzz is the new way to design your home. Browse 20 million interior design photos, home decor, decorating ideas and home professionals online.",
+    "icon": "/home-collection/brandlogo/houzz.png",
+    "url": "https://www.houzz.com/"
+  },
+  {
+    "title": "ArchiTonic",
+    "description": "The largest platform for products, materials and concepts for designers and architects. Explore design products and much more on Architonic!",
+    "icon": "/home-collection/brandlogo/architonic.png",
+    "url": "https://www.architonic.com/"
+  },
+  {
+    "title": "Architectural Digest",
+    "description": "Architectural Digest is the international design authority, featuring the work of top architects and designers.",
+    "icon": "/home-collection/brandlogo/ad.png",
+    "url": "https://www.architecturaldigest.com/"
+  },
+  {
+    "title": "HGTV",
+    "description": "Let HGTV help you transform your home with pictures and inspiration for interior design, home decor, landscape design, remodeling and entertaining ideas.",
+    "icon": "/home-collection/brandlogo/hgtv.png",
+    "url": "https://www.hgtv.com/"
+  },
+  {
+    "title": "ArchDaily",
+    "description": "ArchDaily, Broadcasting Architecture Worldwide: Architecture news, competitions and projects updated every hour for the architecture professional",
+    "icon": "/home-collection/brandlogo/arch_daily.png",
+    "url": "https://www.archdaily.com/"
+  }
+]
